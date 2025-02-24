@@ -3,42 +3,40 @@ using Microsoft.EntityFrameworkCore;
 using studentManagement.Data;
 using studentManagement.Models;
 
-
-
-namespace StudentManagementSystem.Repositories
+namespace studentManagement.Repositories
 {
     public class StudentRepository : IStudentRepository
     {
-        private readonly AppDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public StudentRepository(AppDbContext context)
+        public StudentRepository(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public async Task<IEnumerable<Student>> GetAllAsync()
+        public async Task<IEnumerable<Student>> GetAllStudentsAsync()
         {
             return await _context.Students.ToListAsync();
         }
 
-        public async Task<Student> GetByIdAsync(int id)
+        public async Task<Student> GetStudentByIdAsync(int id)
         {
             return await _context.Students.FindAsync(id);
         }
 
-        public async Task AddAsync(Student student)
+        public async Task AddStudentAsync(Student student)
         {
-            await _context.Students.AddAsync(student);
+            _context.Students.Add(student);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Student student)
+        public async Task UpdateStudentAsync(Student student)
         {
             _context.Students.Update(student);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteStudentAsync(int id)
         {
             var student = await _context.Students.FindAsync(id);
             if (student != null)

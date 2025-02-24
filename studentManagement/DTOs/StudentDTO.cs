@@ -1,9 +1,7 @@
-﻿// Models/Student.cs
-namespace studentManagement.Models
+﻿namespace studentManagement.DTOs
 {
-    public class Student
+    public class StudentDTO
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Course { get; set; }

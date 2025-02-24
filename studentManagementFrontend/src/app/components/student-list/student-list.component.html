@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Course</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let student of students">
+      <td>{{ student.name }}</td>
+      <td>{{ student.email }}</td>
+      <td>{{ student.course }}</td>
+      <td>
+        <button class="btn btn-danger" (click)="deleteStudent(student.id!)">Delete</button>
+      </td>
+    </tr>
+  </table>

@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { StudentFormComponent } from './components/student-form/student-form.component';
+import { StudentListComponent } from './components/student-list/student-list.component';
+import { CommonModule } from '@angular/common'; 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true, 
+  imports: [CommonModule, StudentFormComponent, StudentListComponent], 
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'studentManagementFrontend';
-}
+export class AppComponent { }

@@ -1,7 +1,7 @@
 [
   {
-    "ContainingType": "StudentManagementSystem.Controllers.StudentsController",
-    "Method": "GetAll",
+    "ContainingType": "studentManagement.Controllers.StudentsController",
+    "Method": "GetStudents",
     "RelativePath": "api/Students",
     "HttpMethod": "GET",
     "IsController": true,
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[studentManagement.Models.Student, studentManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[studentManagement.DTOs.StudentResponseDTO, studentManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,22 +20,22 @@
     ]
   },
   {
-    "ContainingType": "StudentManagementSystem.Controllers.StudentsController",
-    "Method": "Create",
+    "ContainingType": "studentManagement.Controllers.StudentsController",
+    "Method": "AddStudent",
     "RelativePath": "api/Students",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "studentDTO",
-        "Type": "studentManagement.DTO.StudentDTO",
+        "Name": "studentDto",
+        "Type": "studentManagement.DTOs.StudentDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "studentManagement.Models.Student",
+        "Type": "studentManagement.DTOs.StudentResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,8 +46,8 @@
     ]
   },
   {
-    "ContainingType": "StudentManagementSystem.Controllers.StudentsController",
-    "Method": "GetById",
+    "ContainingType": "studentManagement.Controllers.StudentsController",
+    "Method": "GetStudent",
     "RelativePath": "api/Students/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "studentManagement.Models.Student",
+        "Type": "studentManagement.DTOs.StudentResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "ContainingType": "StudentManagementSystem.Controllers.StudentsController",
-    "Method": "Update",
+    "ContainingType": "studentManagement.Controllers.StudentsController",
+    "Method": "UpdateStudent",
     "RelativePath": "api/Students/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -85,16 +85,16 @@
         "IsRequired": true
       },
       {
-        "Name": "studentDTO",
-        "Type": "studentManagement.DTO.StudentDTO",
+        "Name": "studentDto",
+        "Type": "studentManagement.DTOs.StudentDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentManagementSystem.Controllers.StudentsController",
-    "Method": "Delete",
+    "ContainingType": "studentManagement.Controllers.StudentsController",
+    "Method": "DeleteStudent",
     "RelativePath": "api/Students/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
