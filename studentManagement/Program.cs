@@ -5,6 +5,16 @@ using studentManagement.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.WithOrigins("http://localhost:4200") // Replace with your frontend URL
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -24,6 +34,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 

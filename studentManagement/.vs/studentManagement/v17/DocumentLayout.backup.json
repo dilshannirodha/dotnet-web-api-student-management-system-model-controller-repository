@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|d:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentmanagement\\studentmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9755B4A5-6C3C-431D-8C46-9C02822BF07A}|studentManagement.csproj|solutionrelative:studentmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:22:24.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -72,19 +81,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAYAAAALAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:22:24.396Z",
+              "WhenOpened": "2025-02-18T18:58:32.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentResponseDTO.cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\DTOs\\StudentResponseDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentResponseDTO.cs",
@@ -97,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentDTO.cs",
@@ -110,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -123,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IStudentRepository .cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Repositories\\IStudentRepository .cs",
               "RelativeDocumentMoniker": "Repositories\\IStudentRepository .cs",
@@ -136,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
@@ -145,19 +154,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:06:01.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:58:32.261Z",
               "EditorCaption": ""
             },
             {
@@ -184,19 +180,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:48:29.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "studentManagement.csproj",
-              "DocumentMoniker": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\studentManagement.csproj",
-              "RelativeDocumentMoniker": "studentManagement.csproj",
-              "ToolTip": "D:\\github projects\\dotnet-web-api-student-management-system-model-controller-repository\\studentManagement\\studentManagement.csproj",
-              "RelativeToolTip": "studentManagement.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T18:56:38.334Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,8 @@
+<h2 class="text-3xl font-semibold text-center my-6">Student List</h2>
+<ul class="space-y-4">
+  <li *ngFor="let student of students" class="flex justify-between items-center p-4 bg-white rounded-lg shadow-md hover:bg-gray-100 transition duration-300">
+    <span class="text-lg font-medium">{{ student.name }}</span> 
+    <span class="text-sm text-gray-500">{{ student.email }}</span> 
+    <span class="text-sm text-blue-600">{{ student.course }}</span>
+  </li>
+</ul>
