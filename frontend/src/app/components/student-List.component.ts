@@ -7,7 +7,7 @@ import { StudentService } from '../services/student.service';
   selector: 'app-student-list',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './student-list.component.html', // ✅ Reference external template
+  templateUrl: './student-list.component.html', 
 })
 export class StudentListComponent implements OnInit {
   students: any[] = [];

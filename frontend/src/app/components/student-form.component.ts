@@ -8,7 +8,7 @@ import { StudentService } from '../services/student.service';
   selector: 'app-student-form',
   standalone: true,
   imports: [CommonModule, FormsModule],
-  templateUrl: './student-form.component.html', // ✅ Reference external template
+  templateUrl: './student-form.component.html', 
 })
 export class StudentFormComponent implements OnInit {
   student = { name: '', email: '', course: '' };
